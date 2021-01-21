@@ -11,4 +11,8 @@ interface SchoolDao {
     @Transaction
     @Query("SELECT * FROM ${DatabaseConstants.SCHOOL_TABLE} WHERE schoolName = :schoolName")
     suspend fun getSchoolDirector(schoolName: String): List<SchoolDirectorRelation>
+
+    @Transaction
+    @Query("SELECT * FROM ${DatabaseConstants.SCHOOL_TABLE} WHERE schoolName = :schoolName")
+    suspend fun getSchoolWithStudents(schoolName: String): List<SchoolWithStudents>
 }

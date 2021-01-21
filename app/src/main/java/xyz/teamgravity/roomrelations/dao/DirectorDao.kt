@@ -1,8 +1,9 @@
-package xyz.teamgravity.roomrelations
+package xyz.teamgravity.roomrelations.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
+import xyz.teamgravity.roomrelations.entity.DirectorModel
 
 @Dao
 interface DirectorDao {

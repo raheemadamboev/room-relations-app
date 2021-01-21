@@ -1,6 +1,10 @@
-package xyz.teamgravity.roomrelations
+package xyz.teamgravity.roomrelations.dao
 
 import androidx.room.*
+import xyz.teamgravity.roomrelations.DatabaseConstants
+import xyz.teamgravity.roomrelations.relation.SchoolDirectorRelation
+import xyz.teamgravity.roomrelations.entity.SchoolModel
+import xyz.teamgravity.roomrelations.relation.SchoolWithStudents
 
 @Dao
 interface SchoolDao {

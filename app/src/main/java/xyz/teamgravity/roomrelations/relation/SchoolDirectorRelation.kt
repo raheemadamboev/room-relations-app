@@ -1,7 +1,9 @@
-package xyz.teamgravity.roomrelations
+package xyz.teamgravity.roomrelations.relation
 
 import androidx.room.Embedded
 import androidx.room.Relation
+import xyz.teamgravity.roomrelations.entity.DirectorModel
+import xyz.teamgravity.roomrelations.entity.SchoolModel
 
 data class SchoolDirectorRelation(
 

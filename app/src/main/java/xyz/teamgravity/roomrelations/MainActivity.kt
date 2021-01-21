@@ -76,8 +76,8 @@ class MainActivity : AppCompatActivity() {
 
             schoolWithStudents.forEach {
                 println("debug: school: ${it.school.schoolName}")
-                it.students.forEach {
-                    println("debug: student: ${it.studentName}")
+                it.students.forEach { student ->
+                    println("debug: student: ${student.studentName}")
                 }
             }
         }

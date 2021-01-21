@@ -31,4 +31,9 @@ object DatabaseConstants {
      * Subject table
      */
     const val SUBJECT_TABLE = "subject_table"
+
+    /**
+     * Student subject cross reference table for N-TO-M relationship
+     */
+    const val STUDENT_SUBJECT_CROSS_REF_TABLE = "student_subject_cross_ref_table"
 }

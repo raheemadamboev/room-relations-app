@@ -68,7 +68,18 @@ class MainActivity : AppCompatActivity() {
 
             val schoolWithDirector = schoolDao.getSchoolDirector("Kotlin School")
 
+            schoolWithDirector.forEach {
+                println("debug: school: ${it.school.schoolName} director ${it.director.directorName}")
+            }
+
             val schoolWithStudents = schoolDao.getSchoolWithStudents("Kotlin School")
+
+            schoolWithStudents.forEach {
+                println("debug: school: ${it.school.schoolName}")
+                it.students.forEach {
+                    println("debug: student: ${it.studentName}")
+                }
+            }
         }
     }
 }

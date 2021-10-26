@@ -7,7 +7,7 @@ This app is to test Room Entity relationship models. In this project ONE-TO-ONE,
 
 <img src="https://i.imgur.com/mRNx66g.png" alt="Italian Trulli" width="683" height="384">
 
-**Key points:**
+**Tech stack:**
 
 - Kotlin Coroutines
 - Room
